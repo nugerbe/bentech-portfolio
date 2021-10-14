@@ -2,17 +2,19 @@
     font-family: sans-serif;
 }
 
-#ngbNav {
-    overflow: hidden;
-}
-
 .navbar {
     background-color: #0B0C10;
     width: 100%;
+    overflow: hidden;
 }
 
 .navbar-brand {
     padding-left: 1rem;
+}
+
+.navbar-brand img {
+    height: 120px;
+    width: 120px;
 }
 
 .navbar-toggler {
@@ -20,13 +22,16 @@
 }
 
 .navbar-nav {
-    padding: 1rem 4rem;
+    padding: 0rem 4rem;
+}
+
+.navbar li {
+    padding-right: 1rem;
 }
 
 .navbar a {
     background-color: inherit;
     color: #ffffff;
-    padding: 1rem;
 }
 
 .navbar a:hover {
