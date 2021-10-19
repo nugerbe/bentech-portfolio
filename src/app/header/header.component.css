@@ -1,39 +1,12 @@
-/* * {
-    font-family: sans-serif;
+.navbar .navbar-nav li a {
+    transition: all 0.4s ease-in;
 }
 
-.navbar {
-    background-color: #0B0C10;
-    width: 100%;
-    overflow: hidden;
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+color: #66FCf1;
 }
 
-.navbar-brand {
-    padding-left: 1rem;
-}
-
-.navbar-brand img {
-    height: 120px;
-    width: 120px;
-}
-
-.navbar-toggler {
+.navbar-toggler-icon {
     color: #ffffff;
 }
-
-.navbar-nav {
-    padding: 0rem 4rem;
-}
-
-.navbar li {
-    padding-right: 1rem;
-}
-
-.navbar a {
-    background-color: inherit;
-    color: #ffffff;
-}
-
-.navbar a:hover {
-    color: #66FCf1;
-} */
