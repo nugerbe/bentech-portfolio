@@ -1,5 +1,18 @@
+.navbar-brand {
+    margin-left: 5%;
+}
+
 .navbar .navbar-nav li a {
-    transition: all 0.4s ease-in;
+    -webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+#NavCollapse {
+    margin-right: 10%;
+}
+
+.navbar-nav .nav-item {
+    margin: auto 1rem auto 1rem;
 }
 
 .navbar .navbar-nav > li > a:hover,
@@ -9,4 +22,8 @@ color: #66FCf1;
 
 .navbar-toggler-icon {
     color: #ffffff;
+}
+
+.nav-link {
+    text-align: center;
 }
