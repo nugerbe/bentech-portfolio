@@ -7,21 +7,23 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div id="NavCollapse" [ngClass]="{ 'show': navbarOpen }" class="collapse navbar-collapse justify-content-end">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" routerLinkActive="active">
         <li class="nav-item active">
           <!-- Step 4: Close the menu when a link is clicked. -->
-          <a class="nav-link" [routerLink]="'.'" routerLinkActive="active">Home</a>
+          <a class="nav-link" routerLink="." routerLinkActive="activebutton">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" routerLinkActive="active">About</a>
+          <a class="nav-link" routerLink="/About" routerLinkActive="activebutton">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" routerLinkActive="active">Projects</a>
+          <a class="nav-link" routerLink="/Projects" routerLinkActive="activebutton">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" routerLinkActive="active">Contact</a>
+          <a class="nav-link" routerLink="/Contact" routerLinkActive="activebutton">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<router-outlet></router-outlet>

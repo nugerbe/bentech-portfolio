@@ -1,0 +1,87 @@
+/* about section */
+
+#about-header {
+    background: url('../../assets/about-header.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 160px;
+  }
+
+.mt30 {
+	margin-top: 30px;
+}
+
+  #about {
+    padding-top: 60px;
+  }
+  #about .container {
+    background: #191919;
+  }
+  #about .col-md-6 {
+    padding: 0;
+    margin: 0;
+  }
+  #about .about-des {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  #about .btn {
+    margin-top: 30px;
+  }
+
+  /* team section */
+#team {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+#team h2 {
+padding-bottom: 30px;
+text-align: center;
+}
+#team h3 {
+padding-bottom: 10px;
+}
+#team .team-wrapper {
+border: 2px solid #303030;
+padding: 20px;
+}
+#team h4 {
+color: #4d2fe4;
+}
+#team img {
+opacity: 0.8;
+}
+#team hr {
+border-color: #303030;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+#team strong {
+display: inline-block;
+padding-top: 12px;
+padding-bottom: 10px;
+}
+#team .progress {
+border-radius: 0px;
+height: 4px;
+}
+#BenTech {
+    color: #4d2fe4;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+}
+.grid-item {
+    align-self: center;
+    justify-self: center;
+}
+
+.TechImg {
+    width: 75px;
+    height: auto;
+}
