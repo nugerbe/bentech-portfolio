@@ -10,8 +10,9 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from "@angular/common/http";
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,6 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    ContactComponent,
     FooterComponent
   ],
   imports: [
@@ -28,9 +28,12 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     NgbModule,
     LightboxModule,
+    HttpClientModule,
+    FormsModule,
     RouterModule.forRoot([
       { path: 'Home', component: HomeComponent },
       { path: 'About', component: AboutComponent },
+      { path: 'Projects', component: ProjectsComponent },
       { path : '**', component: HomeComponent }
     ])
   ],
