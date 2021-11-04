@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+  background: #ffffff;
+  color: #808080;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+.container {
+width: 700px;
+}
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}

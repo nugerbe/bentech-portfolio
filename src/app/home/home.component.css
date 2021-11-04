@@ -1,0 +1,221 @@
+#home {
+    background: url('../../../src/images/Hero.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    }
+#home h1,
+#home h3 {
+    line-height: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+
+/* divider section */
+.divider {
+    color: #fff;
+    text-align: center;
+}
+.divider .fa {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 32px;
+    width: 80px;
+    height: 80px;
+    line-height: 76px;
+    text-transform: capitalize;
+}
+.divider h2 {
+    padding-bottom: 4px;
+}
+.divider .divider-wrapper {
+    padding: 40px 20px 40px 20px;
+    position: relative;
+    bottom: 40px;
+    transition: all 0.4s ease-in;
+    height: 100%;
+}
+.divider .divider-wrapper:hover {
+    bottom: 60px;
+    cursor: pointer;
+}
+.divider .divider-one {
+    background-color: #f8f9d2;
+    background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+    color: #fff;
+}
+.divider .divider-two {
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+}
+.divider .divider-three {
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);  
+}
+
+/* about section */
+#about {
+    padding-top: 30px;
+}
+
+#about .container {
+    background: #191919;
+}
+
+.row > * {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-responsive {
+    max-width:100%;
+    max-height:100%;
+    height: 100%;
+}
+
+#about .about-des {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+#about .btn {
+    margin-top: 60px;
+    color: #fff;
+    border: 2px solid;
+    border-color: #fff;
+    margin-bottom: 10px;
+}
+
+/* portfolio section */
+#portfolio {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#portfolio h2 {
+    padding-bottom: 20px;
+}
+
+#portfolio .col-md-4, #portfolio .col-md-3 {
+    padding: 0;
+    margin: 0;
+}
+
+#portfolio img {
+    width: 100%;
+    transition: all 0.4s ease-in;
+    opacity: 0.8;
+}
+
+#portfolio img:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-text {
+    padding-top: 10px;
+}
+
+#portfolio .btn {
+    margin-top: 30px;
+    border: 2px solid #191919;
+}
+
+/* contact section */
+#contact-header {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    padding-top: 160px;
+}
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#contact h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+#contact .form-control {
+    background: #202020;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-in;
+    color: #fff;
+}
+#contact .form-control:focus {
+    background: #404040;
+}
+#contact input {
+    height: 53px;
+}
+.form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+#map-canvas {
+    border: none;
+    width: 100%;
+    height: 300px;
+}
+
+/* copyright section */
+.copyright {
+    margin: 10px 0px;
+}
+.copyright p {
+    padding-top: 20px;
+}
+.social-icons {
+    padding: 0px;
+    margin: 0px;
+}
+.social-icons li {
+    display: inline-block;
+    list-style: none;
+    background: #303030;
+    margin: 10px 0px 0px 0px;
+}
+.social-icons li a {
+    color: #909090;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: all 0.4s ease-in;
+}
+.social-icons li a:hover {
+    background: #d54ab6;
+    color: #fff;
+}
+
+/* media 960 */
+@media ( max-width: 960px ) {
+    .divider .divider-wrapper {
+        margin-bottom: 20px;
+    }
+    #about .about-des {
+        padding-bottom: 40px;
+    }
+    #team .team-wrapper {
+        margin-bottom: 40px;
+    }
+    #contact h3 {
+        padding-top: 20px;
+    }
+    #contact .btn {
+        margin-bottom: 20px;
+    }
+}
